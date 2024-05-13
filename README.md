@@ -15,6 +15,6 @@ Here is the guide to use this code!
 
 NB: to initiate the class, you just need to fill in
 
-path = path to your raw files folder
-batchsize = how big is the batch, it is arbitrary, but last time I tried, 60 has the best performance
+path = path to your raw files folder \n
+batchsize = how big is the batch, it is arbitrary, but last time I tried, 60 has the best performance \n
 dir_to_save = where in the image_converted you want to save the jpg files, it will be the title of your jpg files folder
