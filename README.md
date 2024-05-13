@@ -7,10 +7,11 @@ The code purposes is to convert RAW file such as .NEF or .ARW from camera, to .j
 
 Here is the guide to use this code!
 
-0. Make sure you place all you raw files into 1 folder, better if only raw file inside
-1. Double-click on dependencies.bat to install all dependencies or run >>start dependencies.bat on your terminal
-2. Open up convert_to_jpg.py, follow the instruction in code's comment.
-3. All the files will be exported inside your specified file, inside image_converted
+0. Download 02_dependencies.bat and 03_convert_to_jpg.py
+1. Make sure you place all you raw files into 1 folder, better if only raw file inside
+2. Double-click on dependencies.bat to install all dependencies or run >>start dependencies.bat on your terminal
+3. Open up convert_to_jpg.py, follow the instruction in code's comment.
+4. All the files will be exported inside your specified file, inside image_converted
 
 NB: to initiate the class, you just need to fill in
 
