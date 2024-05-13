@@ -13,7 +13,7 @@ class FileToConvert:
         self.path = path # path to raw files
         self.file_name = [file for file in os.listdir(self.path) if not(file.endswith('.jpg'))] # list of file inside path
         self.batchsize = batchsize # size of the batch (arbitrary)
-        self.dir_to_save = os.path.join('04_image_converted', dir_to_save) # name of the directory to save the jpg image
+        self.dir_to_save = os.path.join('image_converted', dir_to_save) # name of the directory to save the jpg image
 
     def batch(self): # divide folder into group of files called batch
         i = 0
@@ -49,8 +49,9 @@ class FileToConvert:
 if __name__ == '__main__':
     
     # Initiation, stop here if you only want to convert raw to jpg
-    path = '../ARW_Ideasjam' # specified path to the raw files FOLDER
-    q = FileToConvert(path=path, batchsize=60, dir_to_save='Ideasjam_Pitch_Workshop') # create FileToConvert object
+    os.mkdir('image_converted')
+    path = 'path/to/your/raw/folder' # specified path to the raw files FOLDER
+    q = FileToConvert(path=path, batchsize=60, dir_to_save='your_jpg_folder_title') # create FileToConvert object
 
     # Converting all files
     start = time.time()
